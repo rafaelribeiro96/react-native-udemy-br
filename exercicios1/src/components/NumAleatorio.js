@@ -6,7 +6,7 @@ export default ({num1, num2}) => {
   const delta = num2 - num1 + 1;
   const aleatorio = Math.floor(Math.random() * delta) + num1;
   return (
-    <Text style={Estilo.fontG}>
+    <Text style={Estilo.txtG}>
       O numero aleatório entre {num1} e {num2} é {aleatorio}
     </Text>
   );

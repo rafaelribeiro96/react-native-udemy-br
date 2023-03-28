@@ -4,7 +4,7 @@ import Estilo from './estilo';
 
 export default ({min, max}) => {
   return (
-    <Text style={Estilo.fontG}>
+    <Text style={Estilo.txtG}>
       O valor {max} é maior que o valor {min}
     </Text>
   );
