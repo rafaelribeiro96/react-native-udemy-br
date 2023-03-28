@@ -1,20 +1,23 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import Title from './components/title';
+import Botao from './components/Botao';
 
-/* import CompPadrao, {Comp1, Comp2} from './components/Multi';
-import Primeiro from './components/Primeiro'; */
-/* import MinMax from './components/MinMax';
-import NumAleatorio from './components/NumAleatorio'; */
+//import Title from './components/title';
+//import CompPadrao, {Comp1, Comp2} from './components/Multi';
+//import Primeiro from './components/Primeiro';
+//import MinMax from './components/MinMax';
+//import NumAleatorio from './components/NumAleatorio';
 
 function App() {
   return (
     <View style={style.App}>
+      <Botao />
+      {/*
       <Title
         principal="Cadastro Produto"
         secundario="Tela de Cadastro do Produto"
       />
-      {/* <CompPadrao />
+      <CompPadrao />
       <Comp1 />
       <Comp2 />
       <Primeiro />
